@@ -96,7 +96,7 @@ function App() {
                 <button
                   onClick={() => {
                     const cnf = confirm(
-                      `Are You sure , do you want to delete TODO - ${t.title} ? `
+                      `Are you sure , do you want to delete TODO - ${t.title} ? `
                     );
                     if (!cnf) return;
                     const val = todo.filter((_: any, i: any) => i !== index);
