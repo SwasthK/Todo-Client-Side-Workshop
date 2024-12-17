@@ -7,14 +7,14 @@ const setLocalStorage = (todo: any) => {
 
 function App() {
   const [todo, setTodo] = useState<any>(
-    JSON.parse(localStorage.getItem("todo") || "[]") C CH
+    JSON.parse(localStorage.getItem("todo") || "[]")
   );
 
   const handleSubmit = (e: any) => {
     e.preventDefault();
     const { value } = e.target.name;
     if (value === "") {
-      alert("Please add the todo content");
+      alert("Please fill the input field");
       return;
     }
     setTodo((prev: any) => {
