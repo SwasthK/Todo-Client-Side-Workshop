@@ -9,6 +9,10 @@ A simple To-Do application built during a React workshop. This project demonstra
 - Persistent storage using localStorage
 - Built with React and Vite for fast development
 
+## Live at
+
+[Live Demo](todo-workshop.vercel.app)
+
 ## Technologies Used
 
 - **React**: For building the user interface
