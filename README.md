@@ -11,7 +11,7 @@ A simple To-Do application built during a React workshop. This project demonstra
 
 ## Live at
 
-[Live Demo](todo-workshop.vercel.app)
+[Live Demo](https://todo-workshop.vercel.app/)
 
 ## Technologies Used
 
